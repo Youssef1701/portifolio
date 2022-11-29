@@ -10,38 +10,37 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>Hover</h1>
+                        <h1>FSS</h1>
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href={'https://hover.gg/'}
+                            href={'http://germanservicegroup.com/'}
                         >
-                            <h4>www.hover.gg</h4>
+                            <h4>www.fss.com</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Frontend Engineer</h3>
+                        <h3>Full stack developer</h3>
                         <b>
-                            <p>Summer 2020 - Fall 2021</p>
+                            <p>Summer 2020 - Fall 2022</p>
                         </b>
                     </div>
                 </div>
             </div>
             <div className="text-block">
                 <p>
-                    Targeted towards online content creators and streamers
-                    looking to build a brand, Hover is the home of over 150K
-                    users. Written in Typescript using React, React-Native,
-                    Framer, Express, and Redux.
+                    Targeted towards online shipping content and making
+                    integrations with all the shipping lines to have their rates
+                    always up to date on the site. Also provided all the
+                    information that could relate to the shipping process.
                 </p>
                 <br />
                 <ul>
                     <li>
                         <p>
-                            Architected and engineered the vertical scrolling
-                            discover player which, at its daily peak, was
-                            responsible for generating over 600,000 views across
-                            20,000 active users.
+                            Architected and engineered the the whole website to
+                            be akways easy to access all what you need without
+                            going into many pages.
                         </p>
                     </li>
                     <li>
@@ -58,7 +57,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                             Coordinated major refactors targeted towards app
                             optimization and performance resulting in a smoother
                             user experience and accomplished by eliminating
-                            redundant re-renders and API calls by over 50%.
+                            redundant re-renders and API calls by over 90%.
                         </p>
                     </li>
                     <li>
@@ -73,8 +72,8 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         <p>
                             Rebuilt the website with React and shared mobile app
                             components allowing users to access a wide variety
-                            of app interactions entirely on the web, resulting
-                            in over 700,000 total site visits.
+                            of app interactions entirely on the web, resulting a
+                            huge total site visits.
                         </p>
                     </li>
                 </ul>
@@ -82,17 +81,19 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>BrACS</h1>
+                        <h1>BOSCH - EGYPT</h1>
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href={'https://bracs.co/'}
+                            href={
+                                'http://germanservicegroup.com/art/index.html'
+                            }
                         >
-                            <h4>www.bracs.co</h4>
+                            <h4>www.bosch.co</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Team Lead & Engineer</h3>
+                        <h3>Frontend Developer</h3>
                         <b>
                             <p>Fall 2021 - Spring 2022</p>
                         </b>
@@ -101,10 +102,10 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                    Supervised and developed the front end of bracs.co, a
-                    beautifully simple and effective bracket creation and
-                    management engine. Written in Typescript using React and
-                    deployed using AWS Elastic Beanstalk.
+                    Supervised and developed the front end of Bosch center, a
+                    beautifully simple and effective show creation and showing
+                    engine. Written in Javascript and deployed using Godaddy
+                    panel.
                 </p>
                 <br />
                 <ul>
@@ -116,21 +117,20 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     </li>
                     <li>
                         <p>
-                            Architected bracket view UI using React Flow and
-                            custom bracket data types built from binary trees.
+                            Architected the UI using Adobe XD and custom lights
+                            using Adobe Photoshop.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Created conversion algorithms to serialize bracket
-                            tree data to allow for saving in the cloud.
+                            Created a musically designed website to show the
+                            power of innovation that Bosch center could give.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Implemented bracket generation utilities which
-                            employ gray code for proper team seeding and
-                            placement.
+                            Implemented the website in just 2 weeks bs making a
+                            strict time management plan.
                         </p>
                     </li>
                 </ul>
@@ -138,101 +138,82 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>K-F/X</h1>
+                        <h1>Extreme Zone</h1>
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href={'https://kfxnyc.com/'}
+                            href={
+                                'http://germanservicegroup.com/extreme/HouseOfSparta.html'
+                            }
                         >
-                            <h4>www.kfxnyc.com</h4>
+                            <h4>www.extremezone.com</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Special Effects Technician</h3>
+                        <h3>Full stack developer</h3>
                         <b>
-                            <p>Fall 2019, Summer 2021</p>
+                            <p>Fall 2020, Summer 2021</p>
                         </b>
                     </div>
                 </div>
             </div>
             <div className="text-block">
                 <p>
-                    Applied problem solving and technical skills to operate
-                    large equipment such as rain machines, fog machines, small
-                    explosives and general rigging with a professional crew of
-                    50+ people.
+                    Applied problem solving and disigning skills to operate a
+                    website to be friendly for kids such as inserting 3D
+                    caharcters, Loony tunes logo design, small face reactions
+                    and providing an excitiment thow scrolling into website.
                 </p>
                 <br />
-                <h3 style={styles.indent}>Screen Credits:</h3>
+                <h3 style={styles.indent}>Other Projects:</h3>
                 <ul>
                     <li style={styles.row}>
-                        <p>• Ray Donovan</p>
+                        <p>• Rubik's Cube solver using Python</p>
                         <p>
                             [{' '}
-                            <a
-                                href="https://www.sho.com/ray-donovan"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
+                            <a href="" target="_blank" rel="noreferrer">
                                 SHOWTIME
                             </a>{' '}
                             ]
                         </p>
                     </li>
                     <li style={styles.row}>
-                        <p>• Ray Donovan: The Movie</p>
+                        <p>• Stock Prediction using Machine learning</p>
                         <p>
                             [{' '}
-                            <a
-                                href="https://www.sho.com/titles/3508117/ray-donovan-the-movie"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
+                            <a href="" target="_blank" rel="noreferrer">
                                 SHOWTIME
                             </a>{' '}
                             ]
                         </p>
                     </li>
                     <li style={styles.row}>
-                        <p>• Hightown</p>
+                        <p>• Predicting employees turnover</p>
                         <p>
                             [{' '}
-                            <a
-                                href="https://www.starz.com/us/en/series/hightown/57463"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                STARZ
+                            <a href="" target="_blank" rel="noreferrer">
+                                SHOWTIME
                             </a>{' '}
                             ]
                         </p>
                     </li>
                     <li style={styles.row}>
-                        <p>• Bull</p>
+                        <p>• Certified Blockchain developer from IBM</p>
                         <p>
                             [{' '}
-                            <a
-                                href="https://www.cbs.com/shows/bull/"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                CBS
+                            <a href="" target="_blank" rel="noreferrer">
+                                SHOWTIME
                             </a>{' '}
                             ]
                         </p>
                     </li>
                     <li style={styles.row}>
-                        <p>• At Home with Amy Sedaris</p>
                         <p>
-                            [{' '}
-                            <a
-                                href="https://www.trutv.com/shows/at-home-with-amy-sedaris"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                truTV
-                            </a>{' '}
-                            ]
+                            • Worked on small marketing campaigns to gain
+                            experience.
+                        </p>
+                        <p>
+                            <a href="" target="_blank" rel="noreferrer"></a>
                         </p>
                     </li>
                 </ul>
