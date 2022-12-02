@@ -14,31 +14,31 @@ const CREDITS = [
         title: 'Modeling & Texturing',
         rows: [
             ['Youssef Ehab', 'Texturing, Composition, & UV'],
-            ['Mickael Boitte', 'Computer Model'],
-            ['Sean Nicolas', 'Environment Models'],
+            ['Youssef Ehab', 'Computer Model'],
+            ['Youssef Ehab', 'Environment Models'],
         ],
     },
     {
         title: 'Sound Design',
         rows: [
             ['Youssef Ehab', 'Mixing, Composition, & Foley'],
-            ['Sound Cassette', 'Office Ambience'],
+            ['Youssef Ehab', 'Office Ambience'],
             ['Windows 95 Startup Sound', 'Microsoft'],
         ],
     },
     {
         title: 'Special Thanks',
         rows: [
-            ['Bruno Simon', 'SimonDev'],
-            ['Lorelei Kravinsky', 'Scott Bass'],
-            ['Trey Briccetti', 'Mom, Dad & Angela'],
+            ['', ' '],
+            ['', ''],
+            ['', 'Dad, Mom & Rawan'],
         ],
     },
     {
         title: 'Inspiration',
         rows: [
-            ['Bruno Simon', 'Jesse Zhou'],
-            ['Pink Yellow', 'Vivek Patel'],
+            ['Youssef Ehab', ''],
+            ['', ''],
         ],
     },
 ];
@@ -86,7 +86,7 @@ const Credits: React.FC<CreditsProps> = (props) => {
                 style={styles.credits}
             >
                 <h2>Credits</h2>
-                <p>henryheffernan.com, 2022</p>
+                <p>youssefehab.com, 2022</p>
                 <br />
                 <br />
                 <br />
