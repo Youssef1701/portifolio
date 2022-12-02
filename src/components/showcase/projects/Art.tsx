@@ -1,15 +1,15 @@
 import React from 'react';
 
-import girlRun from '../../../assets/pictures/projects/art/girl-run.gif';
-import gsts from '../../../assets/pictures/projects/art/gsts.png';
+import girlRun from '../../../assets/pictures/projects/art/102912.jpeg';
+import gsts from '../../../assets/pictures/projects/art/10305.png';
 
 export interface ArtProjectsProps {}
 
 const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
     return (
         <div className="site-page-content">
-            <h1>Art & Design</h1>
-            <h3>Endeavors</h3>
+            <h1>Lego</h1>
+            <h3>Art & Design</h3>
             <br />
             <div className="text-block">
                 <p>
@@ -19,28 +19,25 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                 </p>
                 <br />
                 <p>
-                    Here are a few projects/things I've done over the years to
-                    keep the artistic side of me alive. I'm always looking to
-                    push myself creatively and learn new things.
+                    To make a good web or app you always must add some art and
+                    creative design in it to attract the eye of the visitor to
+                    make him curious to scroll more and more throw your project.
                 </p>
             </div>
             <div className="text-block">
                 <h2>Pixel Art and Animation</h2>
                 <br />
                 <p>
-                    In high school, I started learning how to draw and animate
-                    pixel art after becoming interested in video game
-                    development. As I worked on making games over the years, I
-                    learned so much about pixel art and fell in love with
-                    animation.
+                    Lego always has the ability to make any person love to think
+                    and how to build things and enjoy every moment in order to
+                    complete project successfully all well done.
                 </p>
                 <br />
                 <div className="captioned-image">
                     <img src={girlRun} alt="" />
                     <p>
                         <sub>
-                            <b>Figure 1:</b> Eight Frame Run cycle animated by
-                            myself, original sprite by kevink
+                            <b>Figure 1:</b> Lego home.
                         </sub>
                     </p>
                 </div>
@@ -49,57 +46,19 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                     was improving a lot. Around 2017, I started to upload videos
                     of my work flow and animation process to YouTube just for
                     fun. I was really surprised however when my first video took
-                    off and got a few thousand views! Below are the video links
-                    to the work I uploaded to youtube.
+                    off and got a few views!
                 </p>
                 <br />
                 <h3>Video Links:</h3>
                 <br />
-                <ul>
-                    <li>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://www.youtube.com/watch?v=pDtUX3ZVHJ0"
-                        >
-                            <p>
-                                <b>VIDEO</b> - Pixel Art Walk Cycle Time-lapse
-                                and Tutorial
-                            </p>
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://www.youtube.com/watch?v=xXEDKQ3wSfM"
-                        >
-                            <p>
-                                <b>VIDEO</b> - Pixel Art "Bag Up" Animation
-                                Time-lapse
-                            </p>
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://www.youtube.com/watch?v=leZzb-Y0SKQ"
-                        >
-                            <p>
-                                <b>VIDEO</b> - Pixel Art Bipedal Creature Run
-                                Cycle Time-lapse
-                            </p>
-                        </a>
-                    </li>
-                </ul>
+
                 <br />
                 <div className="captioned-image">
                     <img src={gsts} alt="" />
                     <p>
                         <sub>
-                            <b>Figure 2:</b> More pixel art: Enemy Lineup from a
-                            game I worked on called Guntattchment Saga
+                            <b>Figure 2:</b> Full city lego published it on
+                            their website.
                         </sub>
                     </p>
                 </div>

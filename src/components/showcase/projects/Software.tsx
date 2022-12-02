@@ -4,7 +4,7 @@ import saga from '../../../assets/pictures/projects/software/saga.mp4';
 // @ts-ignore
 import computer from '../../../assets/pictures/projects/software/computer.mp4';
 // @ts-ignore
-import scroll from '../../../assets/pictures/projects/software/scroll.mp4';
+import scroll from '../../../assets/pictures/projects/software/scroll.jpg';
 import ResumeDownload from '../ResumeDownload';
 import VideoAsset from '../../general/VideoAsset';
 
@@ -24,18 +24,18 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
             <ResumeDownload />
             <br />
             <div className="text-block">
-                <h2>henryheffernan.com</h2>
+                <h2>myportifolio.com</h2>
                 <br />
                 <p>
-                    henryheffernan.com is my portfolio website, and also the
+                    youssefehab.com is my portfolio website, and also the
                     website you are on right now. This project was an absolute
                     joy to make and challenged me both technically and
                     creatively. Early in 2022, I knew I wanted to make an
                     interactive portfolio to aid my job search. I eventually got
                     the idea for this site around early February and began
                     development early March. I've been developing it alongside
-                    my last semester at school and if you are reading this, it's
-                    pretty much done!
+                    my last semester at university and if you are reading this,
+                    it's pretty much done!
                 </p>
                 <br />
                 <div className="captioned-image">
@@ -57,7 +57,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     <a
                         rel="noreferrer"
                         target="_blank"
-                        href="https://henryheffernan.vercel.app/"
+                        href="https://portifolio-gold-theta.vercel.app/"
                     >
                         here
                     </a>{' '}
@@ -73,10 +73,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://henryheffernan.com"
+                            href="https://profile-phi-rust.vercel.app/"
                         >
                             <p>
-                                <b>[3D Site]</b> - henryheffernan.com
+                                <b>[3D Site]</b> - myportifolio.com
                             </p>
                         </a>
                     </li>
@@ -84,10 +84,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://henryheffernan.vercel.app/"
+                            href="https://portifolio-gold-theta.vercel.app/"
                         >
                             <p>
-                                <b>[OS Site]</b> - henryheffernan.vercel.app
+                                <b>[OS Site]</b> - myportifolio.vercel.app
                             </p>
                         </a>
                     </li>
@@ -95,10 +95,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://github.com/henryjeff/portfolio-website"
+                            href="https://github.com/Youssef1701"
                         >
                             <p>
-                                <b>[GitHub]</b> - 3D Site Repository
+                                <b>[GitHub]</b> - Github account
                             </p>
                         </a>
                     </li>
@@ -106,10 +106,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://github.com/henryjeff/portfolio-inner-site"
+                            href="https://github.com/Youssef1701?tab=repositories"
                         >
                             <p>
-                                <b>[GitHub]</b> - OS Site Repository
+                                <b>[GitHub]</b> - Github Repos
                             </p>
                         </a>
                     </li>
@@ -118,27 +118,24 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     I'm skipping over a lot of details in exchange for brevity,
                     but I do plan on doing a more in depth breakdown for those
                     interested sometime in the future. To get updates with that
-                    project feel free to follow me on twitter{' '}
+                    project feel free to follow me on Facebook{' '}
                     <a
                         rel="noreferrer"
                         target="_blank"
-                        href="https://twitter.com/henryheffernan"
+                        href="https://www.facebook.com/youssef.ehab.35728"
                     >
-                        @henryheffernan
+                        @youssefehab
                     </a>
                 </p>
             </div>
             <div className="text-block">
-                <h2>Guntattchment Saga The Sequel</h2>
+                <h2>3D Bruno Simon's portifolio</h2>
                 <br />
                 <p>
-                    Guntattchment Saga or GSTS is a game I made with my good
-                    friend Scott Bass back in 2019. The game is a wave based top
-                    down shooter where you progress by building the most
-                    outrageous of weapons through attaching as many attachments
-                    on your weapon as you can. The game ceased development in
-                    2019 because we unfortunately both had packed school
-                    schedules and were unable to find the time to work on it.
+                    I successfully built a portifolio that was identical to
+                    Bruno Simon's profile which was challenging for me when I
+                    was a beginner in that major but I tried day after day
+                    untill I successfully built a similar portifolio
                 </p>
                 <br />
                 <div className="captioned-image">
@@ -146,26 +143,26 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     <div style={styles.caption}>
                         <p>
                             <sub>
-                                <b>Figure 2: </b> Guntattchment Saga Gameplay
-                                demo, featuring the main character along with a
-                                few of our grunt and dasher enemies.
+                                <b>Figure 2: </b> Bruno simon's portifolio demo,
+                                featuring the main car with the 3D world and
+                                objects.
                             </sub>
                         </p>
                     </div>
                 </div>
                 <p>
-                    Guntattchment Saga was a really fun project to work on and
-                    had a multitude of challenges. An interesting challenge that
-                    you may not even notice was the rotation of objects such as
-                    the players weapon. Rotating pixel art is a very difficult
-                    thing to do because in the world of pixels you are dealing
-                    with such a little amount of information. Even a single
-                    misplaced pixel can cause a sprite to read in a totally
-                    different and unintended way. To deal with this we developed
-                    an algorithm to prioritize outlines, while rotating the
-                    insides with a simple Nearest Neighbor algorithm. Doing so
-                    resulted in a relatively readable sprite when rotating
-                    sprites. It was a surprisingly difficult challenge as it
+                    This portifolio was a really fun project to work on and had
+                    a multitude of challenges. An interesting challenge that you
+                    may not even notice was the movement of objects such as the
+                    letters and walls. Making blender 3D objects be interactive
+                    was also very callenging thing to do because in the world of
+                    movement you are dealing with such a little amount of
+                    information. Even a single misplaced line can cause a sprite
+                    to read in a totally different and unintended way. To deal
+                    with this we developed an algorithm to prioritize outlines,
+                    while rotating the insides with a simple Nearest Neighbor
+                    algorithm. Doing so resulted in a relatively readable
+                    profile. It was a surprisingly difficult challenge as it
                     intersected both art and programming, but was fun to work on
                     overall.
                 </p>
@@ -176,11 +173,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://github.com/scottbass47/gsts"
+                            href="https://bruno-simon.com/"
                         >
                             <p>
-                                <b>[GitHub]</b> - Guntattchment Saga The Sequel
-                                Unity Repository
+                                <b>[GitHub]</b> - Bruno's Portifolio
                             </p>
                         </a>
                     </li>
@@ -188,54 +184,43 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://github.com/henryjeff/gsts_assets"
+                            href="https://github.com/brunosimon"
                         >
                             <p>
-                                <b>[GitHub]</b> - Guntattchment Saga The Sequel
-                                Assets Repository
+                                <b>[GitHub]</b> - Bruno Simon's GitHub
                             </p>
                         </a>
                     </li>
                 </ul>
                 <p>
-                    Unfortunately, the game currently is not in a releasable
-                    state and so there is no demo available online. If this ever
-                    changes, however, a link to the game will be added here.
+                    Unfortunately, I can't publish the cloned version due to the
+                    copyrights and other stuff.
                 </p>
             </div>
             <div className="text-block">
-                <h2>Skip the Scroll</h2>
+                <h2>Farah's Room</h2>
                 <br />
                 <p>
-                    While working at Hover, I spent a lot of time on GitHub
-                    issue pages looking for answers and solutions to problems I
-                    had run into. I would always find myself sifting though the
-                    comments trying to find the right answer, which usually had
-                    the most upvotes and positive reactions. With that
-                    information, I decided to create a very simple chrome
-                    extension that would sift through all the comments on the
-                    page, sort them by positive reactions, and then allow you to
-                    traverse them from most positive reactions to least positive
-                    reactions.
+                    Farah Mokbel is considered a very well known marketer as she
+                    has achieved many marketing targets in her career and it was
+                    an honor for me to be asked to make her profile. I enjoyed
+                    this website as I was choosing colors and the shape of the
+                    chair and all of that as to show the personality of the
+                    person whish the profile is made for him.
                 </p>
                 <br />
                 <div className="captioned-image">
-                    <VideoAsset src={scroll} />
+                    <img src={scroll} />
                     <p style={styles.caption}>
                         <sub>
-                            <b>Figure 3:</b> Skip the Scroll in action, finding
-                            the highest rated comments and scrolling right to
-                            them
+                            <b>Figure 3:</b> 3D room in the profile
                         </sub>
                     </p>
                 </div>
                 <p>
-                    The extension is open source and currently released on the
-                    Chrome web store. Skip the Scroll is obviously not a project
-                    with massive scope, but was fun to make and dive into the
-                    world of browser extensions. I wanted to showcase since it's
-                    a developer tool and I wanna give it some visibility for
-                    those who might find it useful.
+                    The web is currently released on the Chrome web but it's
+                    still under construction as not the full infromation has
+                    been added to the profile.
                 </p>
                 <br />
                 <h3>Links:</h3>
@@ -244,33 +229,15 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://github.com/henryjeff/skip-the-scroll"
+                            href="https://farah-mokbel.vercel.app/"
                         >
                             <p>
-                                <b>[GitHub]</b> - Skip the Scroll Repository
-                            </p>
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://chrome.google.com/webstore/detail/skip-the-scroll/mfehannpjmgfagldoilpngeoecdfgmnd"
-                        >
-                            <p>
-                                <b>[Chrome Web Store]</b> - Skip the Scroll
+                                <b>[Chrome Web app]</b> - Farah's Portifolio
                             </p>
                         </a>
                     </li>
                 </ul>
-                <p>
-                    If you are a developer and have also found yourself
-                    scrolling through github comment after github comment saying
-                    "i also have this problem...", then I highly recommend you
-                    check out Skip the Scroll to save you some of your precious
-                    time. If you like it, feel free to star it on GitHub and
-                    rate it on the Chrome web store.
-                </p>
+                <p></p>
             </div>
             <ResumeDownload />
         </div>

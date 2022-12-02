@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 // @ts-ignore
-import house from '../../../assets/audio/house_master.mp3';
+import house from '../../../assets/audio/Fly me to the moon.mp3';
 // @ts-ignore
-import edge from '../../../assets/audio/edge_unmastered.mp3';
+import edge from '../../../assets/audio/La Vie.mp3';
 // @ts-ignore
-import dnb from '../../../assets/audio/break.mp3';
+import dnb from '../../../assets/audio/Call Out My Name .mp3';
 // @ts-ignore
-import dnbDrums from '../../../assets/audio/dnb_drop_drums.mp3';
+import dnbDrums from '../../../assets/audio/Call Out My Name.mp3';
 import houseProject from '../../../assets/pictures/projects/audio/houseProject.png';
 import dnbDrumsProject from '../../../assets/pictures/projects/audio/dnbDrumsProject.png';
 import { MusicPlayer } from '../../general';
@@ -18,52 +18,41 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
 
     return (
         <div className="site-page-content">
-            <h1>Music & Sound</h1>
+            <h1>Music & Sounds</h1>
             <h3>Ventures</h3>
             <br />
             <div className="text-block">
                 <p>
                     Music has been a passion of mine for my whole life. When I
-                    was 15 years old, I downloaded FL Studio and started to
-                    produce my own music. I found a wonderful community on
-                    reddit called r/edmproduction and in 2016 created the now
-                    popular discord server EDM Production with over 14k members.
+                    was young, I downloaded logic pro and started to learn how
+                    to make music. I found a wonderful community on reddit
+                    called r/edmproduction and by time I was able to choose the
+                    right sound for every object in my projects..
                 </p>
                 <br />
-                <p>
-                    I don't release the music that I make publicly as I not only
-                    find it difficult to finish songs, but also it's not a
-                    priority of mine since I produce mostly because I enjoy the
-                    process of learning and creating. However if I am going to
-                    dedicate a whole page of my portfolio to my music, you bet
-                    I'll have some examples to showoff.
-                </p>
+                <p></p>
                 <br />
                 <p>
-                    Below are some more recent Musical Endeavors I've been
-                    working on. I hope you enjoy the music and enjoy the stories
-                    behind each of the tracks.
+                    Below are some of my favorite songs and I was obsessed with
+                    the beat and lyrics.
                 </p>
             </div>
-            <h2>Exploring house</h2>
+            <h2>Fly me to the moon</h2>
             <br />
             <p>
-                In 2020 I went through a phase of really enjoying house. Some of
-                my favorite artists at the time were Malaa, Chirs Lake, Kyle
-                Walker and many more. Inspired, I decided to take a stab at
-                making some house tracks.
+                Fly Me to the Moon", originally titled "In Other Words", is a
+                song written in 1954 by Bart Howard. The first recording of the
+                song was made in 1954 by Kaye Ballard. Frank Sinatra's 1964
+                version was closely associated with the Apollo missions to the
+                Moon
             </p>
             <br />
-            <p>
-                I failed a few times as I wasn't really able to nail the style
-                and groove I was going for but ultimately ended up creating the
-                piece below.
-            </p>
+            <p></p>
             <br />
 
             <MusicPlayer
                 src={house}
-                title="Timeless"
+                title="Fly me to the moon"
                 subtitle="Youssef Ehab- 2022"
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
@@ -71,7 +60,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
 
             <br />
             <br />
-            <div className="captioned-image">
+            {/* <div className="captioned-image">
                 <img src={houseProject} alt="" />
                 <p>
                     <sub>
@@ -79,8 +68,8 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
                         Timeless. 64 tracks in total.
                     </sub>
                 </p>
-            </div>
-            <p>
+            </div> */}
+            {/* <p>
                 I love so much about this track. I'm particularly very proud of
                 the composition and the trichotomy of the happy upbeat energy in
                 the intro and first drop, into the rich and euphoric bridge,
@@ -97,27 +86,25 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
                 more hard bass music, specifically drum & bass, mid tempo and of
                 course dubstep.
             </p>
-            <br />
-            <h2>Mid-Tempo?</h2>
+            <br /> */}
+            <h2>la vie en rose</h2>
             <br />
             <p>
-                Only about a month after taking a step away from house I started
-                working on a mid-tempo track which I called edge. I did a lot of
-                experimenting with this track, and to this day I'm very proud
-                with how it turned out. I never got around to finishing it up
-                and giving it a proper outro, but I'm still very happy with it's
-                current state.
+                Directly translated to "life in pink", "La vie en rose"
+                essentially means seeing life through rose-coloured glasses.
+                Living with an attitude or outlook of positivity, trying to see
+                beauty in the everyday; like you do when you first fall in Love
             </p>
             <br />
             <MusicPlayer
                 src={edge}
-                title="Edge [W.I.P.]"
-                subtitle="Youssef Ehab- 2021"
+                title="La vie en rose"
+                subtitle="Youssef Ehab- 2022"
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
             />
             <br />
-            <p>
+            {/* <p>
                 This track is so dark and I love it! The bass and percussion are
                 the obvious stars of the piece, and I had a blast designing each
                 of them. The bass in this song is layered with a lot of textures
@@ -126,31 +113,33 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
                 gives the track a lot of depth in the high end so when
                 juxtaposed with the bass it radiates this dark and mysterious
                 vibe.
-            </p>
+            </p> */}
             <br />
-            <h2>My love for Drum & Bass</h2>
-            <br />
-            <p>
-                I've always loved drum & bass, and over the years I feel like I
-                always come back to it. My first song I ever made was a DnB
-                track and as I've continued to make music over these last few
-                years the way I produce DnB really reflects my specific taste at
-                that time. It's very fun looking back at the various DnB styles
-                I've taken stabs at over time and how my taste has evolved.
-            </p>
+            <h2>Call out my name</h2>
             <br />
             <p>
-                The track below is a snip-it from a DnB track I started work on
-                back in 2019. I recently decided to pick it up again and work on
-                it more because I loved the idea, bassline and especially the
-                drums. Below is a short demo of the track including a small
-                buildup and drop.
+                Call Out My Name" is a song recorded by Canadian singer the
+                Weeknd, taken from his first EP, My Dear Melancholy, released on
+                March 30, 2018. The Weeknd co-wrote the song with his producer
+                Frank Dukes, with Nicolas Jaar receiving writing credits for the
+                sampling of his 2016 song "Killing Time". The song was sent to
+                rhythmic contemporary radio on April 10, 2018, as the EP's first
+                single in the United States.
+            </p>
+            <br />
+            <p>
+                Also I like Save your tears The Weeknd wrote and produced the
+                song with Max Martin and Oscar Holter, with Belly and DaHeala
+                receiving additional writing credits. The record was met with
+                universal acclaim, with praise for The Weeknd's vocals. The song
+                was also used for the theme song for WWE WrestleMania 37 for
+                their tagline: Back In Business.
             </p>
             <br />
             <MusicPlayer
                 src={dnb}
-                title="Break [Demo]"
-                subtitle="Youssef Ehab- 2019/2022"
+                title="Call out my name"
+                subtitle="Youssef Ehab- 2022"
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
             />
@@ -167,13 +156,13 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <br />
             <MusicPlayer
                 src={dnbDrums}
-                title="Break [Drums and Sub]"
-                subtitle="Youssef Ehab- 2019/2022"
+                title="Save your tears"
+                subtitle="Youssef Ehab- 2022"
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
             />
             <br />
-            <div className="captioned-image">
+            {/* <div className="captioned-image">
                 <img src={dnbDrumsProject} alt="" />
                 <p>
                     <sub>
@@ -182,9 +171,9 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
                         plays!
                     </sub>
                 </p>
-            </div>
+            </div> */}
             <br />
-            <p>
+            {/* <p>
                 There are a lot of layers to DnB drums, and I honestly find them
                 the hardest to mix and get right since the sound design of DnB
                 so often wants to fight in the same frequency range as the
@@ -193,9 +182,9 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
                 overly eq the bass and general sound design. I also find that
                 parallel compression on drums in DnB can be an absolute life
                 saver to keep the drums controlled but still hard hitting.
-            </p>
+            </p> */}
             <br />
-            <h2>The Future of my music</h2>
+            {/* <h2>Save your tears</h2>
             <br />
             <p>
                 I love to make music and will continue to make music as long as
@@ -214,7 +203,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
                 and I'm very excited to see what I can do for the future. Thanks
                 for listening I hope you enjoyed!
             </p>
-            <br />
+            <br /> */}
         </div>
     );
 };
