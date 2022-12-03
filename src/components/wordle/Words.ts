@@ -1,5 +1,5 @@
 const WORDS = [
-    'which',
+    'which','youssef','logaine','farahhh',
     'there',
     'their',
     'about',
