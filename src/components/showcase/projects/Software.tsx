@@ -24,7 +24,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
             <ResumeDownload />
             <br />
             <div className="text-block">
-                <h2>myportifolio.com</h2>
+                <h2>youssefehab.com</h2>
                 <br />
                 <p>
                     youssefehab.com is my portfolio website, and also the
@@ -76,7 +76,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                             href="https://profile-phi-rust.vercel.app/"
                         >
                             <p>
-                                <b>[3D Site]</b> - myportifolio.com
+                                <b>[3D Site]</b> - youssefehab.com
                             </p>
                         </a>
                     </li>
